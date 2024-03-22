@@ -1,0 +1,42 @@
+h1{
+font-family: Arial, Helvetica, sans-serif;
+font: size 35px;
+color:solid black;
+text-align: justify;}
+  h2{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+color:solid blue;}
+    p{
+        font-family:Arial, Helvetica, sans-serif;
+        font: size 50px;
+        color:solid black;}
+header{
+        background-color:salmon;}
+ main{
+    position: relative;
+    border: 2px;
+    margin: 2px, 2px;
+    padding: 5%;}
+  header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: white;}  
+ a:link{
+   color: yellow;}
+a:hover{color :red;}
+ img{
+    border-radius: 10%;
+    padding: 2px;
+      margin: 2px;
+         height: 200px;
+         width: auto;}
+.wrapper{
+  display: grid;
+  grid-template-columns:auto;
+  grid: gap 25px;
+}
+.box{
+grid-column-start: 2;
+grid-column-end:4;
+}
