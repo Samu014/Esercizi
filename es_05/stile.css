@@ -1,0 +1,15 @@
+header {
+    color: green;
+}
+
+
+@media screen and (min-width: 600px) {
+    header {
+      color:blue;
+    }
+  }
+
+@media screen and (min-width:800px) {
+}#main{
+ width: 49px;
+}
